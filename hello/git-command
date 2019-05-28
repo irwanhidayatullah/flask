@@ -1,0 +1,8 @@
+clone dari github menggunakan https
+
+git clone https://github.com/irwanhidayatullah/flask.git
+
+
+jika ingin menambahkan file 
+
+git add .
