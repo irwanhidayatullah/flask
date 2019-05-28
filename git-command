@@ -7,3 +7,4 @@ jika ingin menambahkan file
 
 git add .
 git commit -m "deskripsi saat commit tsb"
+git push origin master
