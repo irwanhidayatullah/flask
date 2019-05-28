@@ -6,3 +6,4 @@ git clone https://github.com/irwanhidayatullah/flask.git
 jika ingin menambahkan file 
 
 git add .
+git commit -m "deskripsi saat commit tsb"
