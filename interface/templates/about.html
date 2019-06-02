@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>about Template</title>
+</head>
+<body>
+    <h1> about Templates</h1>
+
+    <br> <br />
+    variable string = {{ str_var }} <br />
+    integer = {{ int_var }} <br />
+    float = {{ float_var }} <br />
+    list = {{ list_var }} <br />
+    dictionary = {{ dict_var }} <br /><br/><br/>
+
+    model.hitungLuas() = {{ model.hitungLuas() }} <br/>
+    modeel.hitungKeliling() = {{ model.hitungKeliling() }} <br /><br/><br/>
+
+    <ul>
+        {% for key, value in menu.items() %}
+            <li><a href="{{ key }}" > {{ value }}</a></li>
+        {% endfor %}
+    </ul>
+
+
+ 
+</body>
+</html>
