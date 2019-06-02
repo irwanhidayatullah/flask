@@ -33,10 +33,9 @@ def about():
 @application.route('/login', methods=['GET','POST'])
 def show_login():
     if request.method == 'POST':
-        return "ini menggunakan POST" + request.form['Username']
+        return "POST, user =%s password=%s", request.form['inputEmail','inputpassword']
     else:
-        return "ini menggunakan GET" + request.form['Username']
-    return render_template('login.html')
+        return render_template('login.html')
 
 if __name__=='__main__':
     application.run(debug=True)
